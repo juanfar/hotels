@@ -52,7 +52,7 @@ Se crearan dos carpetas llamadas `API` y `App`
 ejecute en la terminal
 
 ```
-mongoimport --db reserve --collection hotels --file data.json
+mongoimport --db reserve --collection hotels --file data.json --jsonArray
 ```
 
 ### Ejecutar API
