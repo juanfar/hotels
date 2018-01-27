@@ -1,0 +1,77 @@
+body {
+  padding-bottom: 50px;
+}
+
+.main-container {
+    margin-top: 20px;
+    width: 95%;
+}
+
+.bg-inverse {
+  background-color: #114280 !important;
+}
+
+.azul_texto {
+  color: #114280;
+}
+.azul_fondo {
+  background: #114280;
+}
+
+.amarillo_texto {
+  color: #f8c346;
+}
+
+.top_10{
+  margin-top: 10px;
+}
+
+.left_5 {
+  margin-left: 5px;
+}
+
+.just_center{
+  text-align: center;
+}
+
+.borde_iz{
+  border-left-style: dotted;
+}
+
+.ico {
+  margin-left: 5px;
+}
+
+.price {
+  color: #c82f3a;
+  font-size: 30px;
+}
+
+/*ANIMACIONES*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
